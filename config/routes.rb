@@ -10,4 +10,5 @@ Rails.application.routes.draw do
   get 'potepan/index'
   get 'potepan/product_grid_left_sidebar'
   get 'potepan/single_product'
+  get 'potepan/cart_page'
 end
