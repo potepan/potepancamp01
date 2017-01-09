@@ -7,12 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BIGBAG Store</title>
-    
+
     <!-- PLUGINS CSS STYLE -->
 
     <!-- GOOGLE FONT -->
     <%= stylesheet_link_tag "application", 'https://fonts.googleapis.com/css?family=Oxygen:400,300,700', :media => "all" %>
-    
+
     <!-- CUSTOM CSS -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -93,7 +93,7 @@
                 </ul>
               </div>
             </div>
-          </div>    
+          </div>
         </div>
 
         <!-- NAVBAR -->
@@ -109,9 +109,9 @@
               </button>
               <a class="navbar-brand" href="javascript:void(0)"><%= image_tag("logo.png") %></a>
             </div>
-        
+
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">            
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
               <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="javascript:void(0)">Home</a></li>
                 <li class="dropdown megaDropMenu">
@@ -119,11 +119,11 @@
                   <ul class="dropdown-menu row">
                     <li class="col-sm-3 col-xs-12">
                       <ul class="list-unstyled">
-                       <li>レディース</li> 
-                       <li><a href="product-grid-left-sidebar.html">トップス</a></li>
-                       <li><a href="product-grid-left-sidebar.html">アウター</a></li>
-                       <li><a href="product-grid-left-sidebar.html">ボトムス</a></li>
-                       <li><a href="product-grid-left-sidebar.html">靴</a></li>
+                       <li>レディース</li>
+                       <li><a href="product_grid_left_sidebar.html">トップス</a></li>
+                       <li><a href="product_grid_left_sidebar.html">アウター</a></li>
+                       <li><a href="product_grid_left_sidebar.html">ボトムス</a></li>
+                       <li><a href="product_grid_left_sidebar.html">靴</a></li>
                         <!-- <li><a href="product-grid-right-sidebar.html">Products Sidebar Right</a></li>
                         <li><a href="product-grid-3-col-filter.html">Products 3 Columns V1</a></li>
                         <li><a href="product-grid-3-col.html">Products 3 Columns V2</a></li>
@@ -136,28 +136,28 @@
                         <li><a href="product-list-left-sidebar.html">Products Sidebar Left</a></li>
                         <li><a href="product-list-right-sidebar.html">Products Sidebar Right</a></li> -->
                         <li class="listHeading">メンズ</li>
-                        <li><a href="product-grid-left-sidebar.html">トップス</a></li>
-                       <li><a href="product-grid-left-sidebar.html">アウター</a></li>
-                       <li><a href="product-grid-left-sidebar.html">ボトムス</a></li>
-                       <li><a href="product-grid-left-sidebar.html">靴</a></li>
+                        <li><a href="product_grid_left_sidebar.html">トップス</a></li>
+                       <li><a href="product_grid_left_sidebar.html">アウター</a></li>
+                       <li><a href="product_grid_left_sidebar.html">ボトムス</a></li>
+                       <li><a href="product_grid_left_sidebar.html">靴</a></li>
                       </ul>
                     </li>
                     <li class="col-sm-3 col-xs-12">
                       <ul class="list-unstyled">
                         <li>キッズ</li>
-                        <li><a href="product-grid-left-sidebar.html">トップス</a></li>
-                       <li><a href="product-grid-left-sidebar.html">アウター</a></li>
-                       <li><a href="product-grid-left-sidebar.html">ボトムス</a></li>
-                       <li><a href="product-grid-left-sidebar.html">靴</a></li>
+                        <li><a href="product_grid_left_sidebar.html">トップス</a></li>
+                       <li><a href="product_grid_left_sidebar.html">アウター</a></li>
+                       <li><a href="product_grid_left_sidebar.html">ボトムス</a></li>
+                       <li><a href="product_grid_left_sidebar.html">靴</a></li>
                       </ul>
                     </li>
                     <li class="col-sm-3 col-xs-12">
                       <ul class="list-unstyled">
                         <li>アクセサリー</li>
-                        <li><a href="product-grid-left-sidebar.html">モバイルケース・アクセサリー</a></li>
-                          <li><a href="product-grid-left-sidebar.html">財布・革小物</a></li>
-                           <li><a href="product-grid-left-sidebar.html">腕時計</a></li>
-                            <li><a href="product-grid-left-sidebar.html">帽子</a></li>
+                        <li><a href="product_grid_left_sidebar.html">モバイルケース・アクセサリー</a></li>
+                          <li><a href="product_grid_left_sidebar.html">財布・革小物</a></li>
+                           <li><a href="product_grid_left_sidebar.html">腕時計</a></li>
+                            <li><a href="product_grid_left_sidebar.html">帽子</a></li>
                       </ul>
                     <!--   <a href="#" class="menu-photo"><img src="img/menu-photo.jpg" alt="menu-img"></a> -->
                     </li>
@@ -205,7 +205,7 @@
         </nav>
 
       </div>
-      
+
       <!-- BANNER -->
       <div class="bannercontainer">
         <div class="fullscreenbanner-container">
@@ -381,7 +381,7 @@
               <div class="thumbnail" onclick="location.href='single-product.html';">
                 <div class="imageWrapper">
                   <%= image_tag("home/featured-collection/featured-collection-01.jpg", :alt => "feature-collection-image") %>
-                  <div class="masking"><a href="product-grid-left-sidebar.html" class="btn viewBtn">View Shoes</a></div>
+                  <div class="masking"><a href="product_grid_left_sidebar.html" class="btn viewBtn">View Shoes</a></div>
                 </div>
                 <div class="caption">
                   <h4>Shoes</h4>
@@ -392,7 +392,7 @@
               <div class="thumbnail" onclick="location.href='single-product.html';">
                 <div class="imageWrapper">
                   <%= image_tag("home/featured-collection/featured-collection-02.jpg", :alt => "feature-collection-image") %>
-                  <div class="masking"><a href="product-grid-left-sidebar.html" class="btn viewBtn">View Bags</a></div>
+                  <div class="masking"><a href="product_grid_left_sidebar.html" class="btn viewBtn">View Bags</a></div>
                 </div>
                 <div class="caption">
                   <h4>Bags</h4>
@@ -403,7 +403,7 @@
               <div class="thumbnail" onclick="location.href='single-product.html';">
                 <div class="imageWrapper">
                   <%= image_tag("home/featured-collection/featured-collection-03.jpg", :alt => "feature-collection-image") %>
-                  <div class="masking"><a href="product-grid-left-sidebar.html" class="btn viewBtn">View Glasses</a></div>
+                  <div class="masking"><a href="product_grid_left_sidebar.html" class="btn viewBtn">View Glasses</a></div>
                 </div>
                 <div class="caption">
                   <h4>Glasses</h4>
@@ -564,7 +564,7 @@
                   </div>
                 </div>
               </div>
-            </div>  
+            </div>
           </div>
           <div class="row latestArticles">
             <div class="col-xs-12">
@@ -626,7 +626,7 @@
                   <div class="partnersLogo clearfix">
                     <%= image_tag("home/partners/partner-01.png", :alt => "partner-img") %>
                   </div>
-                </div>  
+                </div>
                 <div class="slide">
                   <div class="partnersLogo clearfix">
                     <%= image_tag("home/partners/partner-02.png", :alt => "partner-img") %>
@@ -651,7 +651,7 @@
                   <div class="partnersLogo clearfix">
                     <%= image_tag("home/partners/partner-01.png", :alt => "partner-img") %>
                   </div>
-                </div>  
+                </div>
                 <div class="slide">
                   <div class="partnersLogo clearfix">
                     <%= image_tag("home/partners/partner-02.png", :alt => "partner-img") %>
@@ -662,7 +662,7 @@
                     <%= image_tag("home/partners/partner-03.png", :alt => "partner-img") %>
                   </div>
                 </div>
-              </div>              
+              </div>
             </div>
           </div>
         </div>
@@ -727,7 +727,7 @@
                   <input type="text" class="form-control" placeholder="your email address" aria-describedby="basic-addon2">
                   <a href="#" class="input-group-addon" id="basic-addon2">go <i class="glyphicon glyphicon-chevron-right"></i></a>
                 </div>
-              </div>  
+              </div>
             </div>
           </div>
         </div>
@@ -743,13 +743,13 @@
               <ul class="list-inline">
                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              </ul>  
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </div>
-    
+
     <!-- LOGIN MODAL -->
     <div class="modal fade login-modal" id="login" tabindex="-1" role="dialog">
       <div class="modal-dialog">
@@ -775,7 +775,7 @@
               </div>
               <button type="submit" class="btn btn-primary btn-block">ログイン</button>
               <a href="lost-password.html" class="btn btn-link btn-block">パスワードをお忘れの方</a>
-            </form>  
+            </form>
           </div>
         </div>
       </div>
@@ -804,7 +804,7 @@
                 <input type="password" class="form-control" id="">
               </div>
               <button type="submit" class="btn btn-primary btn-block">登録する</button>
-            </form>  
+            </form>
           </div>
         </div>
       </div>
@@ -829,7 +829,7 @@
                     <option value="0">S</option>
                     <option value="1">M</option>
                     <option value="2">L</option>
-                    <option value="3">XL</option>            
+                    <option value="3">XL</option>
                   </select>
                 </span>
                 <span class="quick-drop resizeWidth">
@@ -837,11 +837,11 @@
                     <!-- <option value="0">数</option> -->
                     <option value="1">1</option>
                     <option value="2">2</option>
-                    <option value="3">3</option>            
+                    <option value="3">3</option>
                   </select>
                 </span>
                 <div class="btn-area">
-                  <a href="cart-page.html" class="btn btn-primary btn-block">カートへ入れる <i class="fa fa-angle-right" aria-hidden="true"></i></a> 
+                  <a href="cart-page.html" class="btn btn-primary btn-block">カートへ入れる <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                 </div>
               </div>
             </div>
