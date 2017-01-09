@@ -11,4 +11,8 @@ Rails.application.routes.draw do
   get 'potepan/product_grid_left_sidebar'
   get 'potepan/single_product'
   get 'potepan/cart_page'
+  get 'potepan/blog_left_sidebar'
+  get 'potepan/blog_right_sidebar'
+  get 'potepan/blog_single_left_sidebar'
+  get 'potepan/blog_single_right_sidebar'
 end
