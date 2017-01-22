@@ -17,4 +17,6 @@ Rails.application.routes.draw do
   get 'potepan/blog_single_left_sidebar'
   get 'potepan/blog_single_right_sidebar'
   get 'potepan/about_us'
+  get 'potepan/tokushoho'
+  get 'potepan/privacy_policy'
 end

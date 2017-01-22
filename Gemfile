@@ -34,6 +34,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'solidus'
 gem 'solidus_auth_devise'
+gem 'solidus_i18n', github: 'solidusio-contrib/solidus_i18n', branch: 'master'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
