@@ -8,7 +8,7 @@ Bundler.require(*Rails.groups)
 
 module SolidusRails5
   class Application < Rails::Application
-    
+
     config.to_prepare do
       # Load application's model / class decorators
       Dir.glob(File.join(File.dirname(__FILE__), "../app/**/*_decorator*.rb")) do |c|
@@ -26,6 +26,9 @@ module SolidusRails5
     # -- all .rb files in that directory are automatically loaded.
 
     config.i18n.default_locale = :ja
-
+    config.generators do |g|
+      g.test_framework :rspec
+      g.integration_tool :rspec
+    end
   end
 end
